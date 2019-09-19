@@ -12,6 +12,7 @@ def main():
          'location': '大阪府大阪市浪速区恵美須東１丁目１８−６',
          'zipcode': '5560002'},
     ]
+    print("なんか遅れた")
 
     for i in address_books:
         print(f"{i['name']} 〒{i['zipcode']} {i['location']}")
